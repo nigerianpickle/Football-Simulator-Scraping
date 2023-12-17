@@ -1,0 +1,1 @@
+Error 001: One of the teams are null, problem from reading perhaps?
