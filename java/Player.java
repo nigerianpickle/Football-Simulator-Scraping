@@ -15,6 +15,12 @@ public class Player{
     private String lastName;
 
 
+    //if im reading data from websites
+    private int goalTally;//total number of goals that this player has
+    private int assistTally;//assists
+    private int cleanSheets;//clean sheets
+
+
     //Constructor types
     //input in the form(Daniel Nwogo)
     public Player(String fName,String lName){
@@ -22,12 +28,10 @@ public class Player{
         this.lastName=lName;
     }
 
-    // //input in the form(DanielNwogo)
-    // public Player(String name){
 
-
-    // }
-    
+    public String toString(){
+        return firstName+" "+lastName;
+    }
 
     //Getters
     //Name Getters:-
